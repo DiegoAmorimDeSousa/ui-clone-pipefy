@@ -8,11 +8,11 @@ import Board from './components/Board';
 
 function App() {
   return (
-    <DndProvider backend={HTML5Backend}>
-      <Header />
-      <Board />
-      <GlobalStyle />
-    </DndProvider>
+      <DndProvider backend={HTML5Backend}>
+        <Header />
+        <Board />
+        <GlobalStyle />
+      </DndProvider>
   );
 }
 
